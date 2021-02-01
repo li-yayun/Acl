@@ -4,6 +4,7 @@
 namespace Lyy\AclService;
 
 use App\Models\SkuSupply;
+use Lyy\AclService\Model\jobs;
 
 /**
  * Class AclService
@@ -15,7 +16,7 @@ use App\Models\SkuSupply;
 class AclService
 {
     public static function testDb(){
-        $row = SkuSupply::query()->first();
+        $row = jobs::query()->get()->toArray();
         dd($row);
     }
 }
