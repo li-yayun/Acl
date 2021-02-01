@@ -1,6 +1,6 @@
 {
     "name": "lyy/acl-service",
-    "license": "Apache",
+    "license": "curl",
     "description": "ACL authority management module based on laravel",
     "type": "library",
     "authors": [
@@ -9,7 +9,9 @@
             "email": "582368090@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.2.9"
+    },
     "autoload": {
         "psr-4": {
             "Lyy\\AclService\\": "src/"
