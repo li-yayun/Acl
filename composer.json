@@ -1,6 +1,6 @@
 {
     "name": "lyy/acl-service",
-    "license": "",
+    "license": "Apache",
     "description": "ACL authority management module based on laravel",
     "type": "library",
     "authors": [
